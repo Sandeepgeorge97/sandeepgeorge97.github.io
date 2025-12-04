@@ -39,13 +39,20 @@
       <h2>Documents</h2>
       <ul>
         <li><a href="docs/Resume.pdf">Resume (PDF)</a></li>
-        <li><a href="/assets/Mtech_Thesis_Final.pdf" download>MTech Thesis (PDF Download)</a></li>
+        <li>
+          MTech Thesis (PDF) —
+          <a href="/assets/Mtech_Thesis_Final.pdf" target="_blank" rel="noopener">preview</a>
+          &nbsp;|&nbsp;
+          <a href="/assets/Mtech_Thesis_Final.pdf" download>download</a>
+        </li>
       </ul>
-      
-      <h3>MTech Thesis Preview</h3>
-      <iframe src="/assets/Mtech_Thesis_Final.pdf" width="100%" height="600px" style="border: 1px solid #ccc;">
-        <p>Your browser does not support iframes. <a href="/assets/Mtech_Thesis_Final.pdf">Download the MTech Thesis PDF</a> instead.</p>
-      </iframe>
+
+      <!-- Inline preview for the MTech thesis. The actual PDF file must be added to assets/Mtech_Thesis_Final.pdf -->
+      <div class="thesis-preview" style="margin-top:1rem;">
+        <iframe src="/assets/Mtech_Thesis_Final.pdf" width="100%" height="600" style="border:1px solid #ddd;">
+          Your browser cannot display inline PDFs. You can <a href="/assets/Mtech_Thesis_Final.pdf">download the MTech thesis</a>.
+        </iframe>
+      </div>
     </section>
   </main>
 
